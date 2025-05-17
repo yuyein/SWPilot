@@ -34,12 +34,15 @@ public class RoadToBiodome08 {
         queue[rear++]=n;
     }
     public static int dequeue(){
-        if(front==rear){
+        if(isEmpty()){
             return -1;
         }
         return queue[front++];
     }
     public static int peek(){
         return queue[front];
+    }
+    public static boolean isEmpty(){
+        return front==rear;
     }
 }
