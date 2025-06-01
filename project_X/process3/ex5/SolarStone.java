@@ -10,7 +10,6 @@ public class SolarStone extends AncientArtifact implements EnergyGenerator{
         System.out.println("태양의 돌 : 빛을 받은 시간에 따라 에너지의 양이 달라집니다.");
 
     }
-
     @Override
     public void generateEnergy() {
         System.out.print("태양의 돌로 에너지 생성 중!");

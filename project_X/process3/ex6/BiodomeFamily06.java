@@ -17,6 +17,7 @@ public class BiodomeFamily06 {
         list.add(c);
         list.add(d);
         list.add(e);
+
         //사슴은 호랑이 앞에 올 수 없음, 5살 이하 코끼리는 호랑이 앞에 올 수 없음
         list.sort((x, y) -> {
             // x가 먼저 와야 하면 -1
@@ -39,4 +40,5 @@ public class BiodomeFamily06 {
             index++;
         }
     }
+
 }

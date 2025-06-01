@@ -8,26 +8,12 @@ public class Plant extends Organism{
         setFlowering(flowering);
         setFruit(fruit);
     }
-
-    public void setFlowering(String flowering) {
-        this.flowering = flowering;
-    }
-
-    public void setFruit(String fruit) {
-        this.fruit = fruit;
-    }
-
-    public String getFlowering() {
-        return flowering;
-    }
-
-    public String getFruit() {
-        return fruit;
-    }
-
+    public void setFlowering(String flowering) {this.flowering = flowering;}
+    public void setFruit(String fruit) {this.fruit = fruit;}
+    public String getFlowering() {return flowering;}
+    public String getFruit() {return fruit;}
     @Override
     public void displayInfo(){
         System.out.printf("%s, %s, %s, %s, %s\n",getName(),getSpecies(),getHabitat(),getFlowering(),getFruit());
     }
 }
-

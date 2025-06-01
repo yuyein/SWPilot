@@ -4,6 +4,7 @@ public class AnimalSong extends Song{
     private String type;
     public AnimalSong(String name, int time, String musician, String type){
         super(name,time, musician);
+        setType(type);
 
     }
 

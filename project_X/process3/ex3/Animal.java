@@ -1,3 +1,4 @@
+
 package project_X.process3.ex3;
 
 public class Animal extends Organism{
@@ -8,24 +9,13 @@ public class Animal extends Organism{
         setDigest(digest);
         setFeed(feed);
     }
-
-    public void setDigest(String digest) {
-        this.digest = digest;
-    }
-
-    public void setFeed(String feed) {
-        this.feed = feed;
-    }
-
-    public String getDigest() {
-        return digest;
-    }
-
-    public String getFeed() {
-        return feed;
-    }
+    public void setDigest(String digest) {this.digest = digest;}
+    public void setFeed(String feed) {this.feed = feed;}
+    public String getDigest() {return digest;}
+    public String getFeed() {return feed;}
     @Override
     public void displayInfo(){
         System.out.printf("%s, %s, %s, %s, %s\n",getName(),getSpecies(),getHabitat(),getDigest(),getFeed());
     }
 }
+

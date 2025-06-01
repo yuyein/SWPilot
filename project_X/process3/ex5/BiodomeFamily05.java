@@ -20,8 +20,6 @@ public class BiodomeFamily05 {
         System.out.println();
 
         sorcerer.identify("태양의 돌");
-
-
         sorcerer.useArtifacts("물의 거울");
 
     }

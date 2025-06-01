@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Wind extends EnergySource{
     private int windAmount;
     final String sourceWind="풍력";
-
     @Override
     void produceEnergy() {
         System.out.print("속도를 입력하세요 : ");
@@ -18,15 +17,12 @@ public class Wind extends EnergySource{
         setWindAmount(u);
         System.out.printf("%s 에너지를 %d 사용했습니다\n",getSourceWind(),getWindAmount());
     }
-
     public void setWindAmount(int windAmount) {
         this.windAmount = windAmount;
     }
-
     public int getWindAmount() {
         return windAmount;
     }
-
     public String getSourceWind() {
         return sourceWind;
     }

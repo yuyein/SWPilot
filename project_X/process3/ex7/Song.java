@@ -7,7 +7,7 @@ public class Song{
     public Song(String name, int time, String musician){
      setName(name);
      setTime(time);
-     setName(musician);
+     setMusician(musician);
     }
 
     public void setName(String name) {

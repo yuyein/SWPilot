@@ -1,3 +1,4 @@
+
 package project_X.process3.ex3;
 
 public class Organism {
@@ -13,17 +14,11 @@ public class Organism {
     public void setSpecies(String s) { this.species=s; }
     public void setHabitat(String h) { this.habitat=h; }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
-    public String getSpecies() {
-        return species;
-    }
+    public String getSpecies() {return species;}
 
-    public String getHabitat() {
-        return habitat;
-    }
+    public String getHabitat() {return habitat;}
     public void displayInfo(){
         System.out.printf("%s, %s, %s\n",getName(),getSpecies(),getHabitat());
     }

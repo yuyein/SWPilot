@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Sun extends EnergySource {
     private int sunAmount;
     final String sourceSun="태양광";
-
     @Override
     void produceEnergy() {
         System.out.print("일조시간을 입력하세요 : ");
@@ -21,11 +20,9 @@ public class Sun extends EnergySource {
     public void setSunAmount(int sunAmount) {
         this.sunAmount = sunAmount;
     }
-
     public int getSunAmount() {
         return sunAmount;
     }
-
     public String getSourceSun() {
         return sourceSun;
     }
