@@ -10,14 +10,12 @@ public class BiodomeFamily06 {
         Animals c = new Animals("타이","호랑이",9);
         Animals d = new Animals("로아","코뿔소",5);
         Animals e = new Animals("바비","사슴",7);
-
         List<Animals> list = new ArrayList<>();
         list.add(a);
         list.add(b);
         list.add(c);
         list.add(d);
         list.add(e);
-
         //사슴은 호랑이 앞에 올 수 없음, 5살 이하 코끼리는 호랑이 앞에 올 수 없음
         list.sort((x, y) -> {
             // x가 먼저 와야 하면 -1
@@ -31,7 +29,6 @@ public class BiodomeFamily06 {
             }
             return 0; // 그 외는 순서 유지
         });
-
         int index =0;
         for(Animals animals : list){
             animals.printInfo();

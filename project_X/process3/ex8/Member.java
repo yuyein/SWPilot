@@ -15,4 +15,16 @@ public class Member {
         this.time=time;
         this.skill=skill;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDateTime getTime() {
+        return time;
+    }
+
+    public String getSkill() {
+        return skill;
+    }
 }
